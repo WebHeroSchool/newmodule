@@ -72,7 +72,7 @@
 
 .main__title {
     margin: 0 0 40px 0;
-    font: bold 50px/65px 'pt_serifitalic', arial, helvetica,sans-serif;
+    font: bold 50px/65px 'pt_serifbold', arial, helvetica,sans-serif;
 }
 
 .main_title-text_highlight {
@@ -81,7 +81,7 @@
 
 .main__subtitle{
     margin: 0 0 41px 0;
-    font: 18px/21px Roboto, arial, helvetica,sans-serif;
+    font: 18px/21px bold Roboto, arial, helvetica,sans-serif;
 }
 
 .main__button {
