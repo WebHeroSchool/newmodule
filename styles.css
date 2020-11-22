@@ -136,13 +136,14 @@
     }
 
     .main__subtitle {
-        margin-bottom: 47px;
-        font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+        margin: -2px 45px 30px 44px;
+        font: 500 16px/18px Roboto, arial, helvetica, sans-serif;
+        text-align: center;
     }
 
     .main__button {
-        font: 500 15px/14px Roboto, arial, helvetica, sans-serif;
-        padding: 14px 18px;
+        font: 500 15px/13px Roboto, arial, helvetica, sans-serif;
+        padding: 14px 16px;
     }
       
       #menu__toggle:checked ~ .menu__btn > span {
@@ -242,19 +243,19 @@
 
 @media(min-width:1024px) {
     .wrapper {
-    width: 93%;
+    width: 92%;
     }
     
     .header {
     padding: 31px 0px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 103px;
+    margin-bottom: 105px;
     }
     
     .menu__item {
     position: relative;
-    margin-right: 30px;
+    margin-right: 27px;
     font: 500 14px/1px bold Roboto,arial,helvetica, sans-serif;
     color: #000;
     text-decoration: none;
@@ -283,12 +284,12 @@
     }
     
     .main__title {
-    margin: 0px 0px 36px 6px;
-    font: bold 44px/68px 'pt_serifbold', arial, helvetica,sans-serif;
+    margin: 0px -42px 42px -5px;
+    font: bold 50px/66px 'pt_serifbold', arial, helvetica,sans-serif;
     }
     
     .main__subtitle {
-    margin: 0px 0px 42px 1px;
+    margin: 0px 0px 40px -4px;
     font: 18px/20px bold Roboto, arial, helvetica,sans-serif;
     }
     
@@ -296,7 +297,7 @@
     font: 14px/16px Roboto,arial,helvetica,sans-serif;
     color: #fff;
     background: #0056EC;
-    padding: 15px 20px;
+    padding: 15px 17px;
     }
 }
 
@@ -309,11 +310,11 @@
     padding: 33px 0px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 94px;
+    margin-bottom: 86px;
     }
     .menu__item {
-    margin-right: 18px;
-    font: 500 17px bold Roboto,arial,helvetica, sans-serif;
+    margin-right: 25px;
+    font: 500 15px/17px bold Roboto,arial,helvetica, sans-serif;
     line-height: 0px;
     }
     
@@ -323,18 +324,18 @@
     }
     
     .main__title {
-    margin: 0px 0px 47px 0px;
-    font: bold 44px/65px 'pt_serifbold', arial, helvetica,sans-serif;
+    margin: 12px -50px 46px 0px;
+    font: bold 50px/65px 'pt_serifbold', arial, helvetica,sans-serif;
     }
     
     .main__subtitle {
-    margin: -7px 0px 42px -3px;
+    margin: -6px 0px 42px 0px;
     font: 18px/20px bold Roboto, arial, helvetica,sans-serif;
     }
     
     .main__button {
-    font: 15px/17px Roboto,arial,helvetica,sans-serif;
-    padding: 14px 17px;
+    font: 14px/16px Roboto,arial,helvetica,sans-serif;
+    padding: 14px 15px;
     }
     
     .menu__item_active:after {
@@ -360,37 +361,49 @@
 }
 
 @media(min-width:1920px) {
-    .wrapper{
-        width:80%;
-    }
-    .header {
-    padding: 28px 0;
-    }
-    .main {
-    padding: 113px 50% 0 0;
-    width:770px;
-    height: 657px;
-    background: top right no-repeat url(img/Frame1920.svg);
-    }
+        .wrapper{
+         width:80%;
+        }
+        .header {
+        padding: 28px 0;
+     margin-bottom: 140px;
+        }
+        .main {
+        padding: 113px 50% 0 0;
+        width:770px;
+        height: 657px;
+        background: top right no-repeat url(img/Frame1920.svg);
+     }
     
-    .main__title {
-    margin: 8px 0 48px -8px;
-    font: bold 66px/86px 'pt_serifbold', arial, helvetica,sans-serif;
-    }
+        .main__title {
+        margin: -37px 0 48px -8px;
+        font: bold 66px/86px 'pt_serifbold', arial, helvetica,sans-serif;
+        }
     
-    .main__subtitle{
-    margin: -8px 320px 49px -6px;
-    font: 22px/27px bold Roboto, arial, helvetica,sans-serif;
-    }
+        .main__subtitle{
+        margin: -8px 320px 44px -5px;
+        font: 22px/27px bold Roboto, arial, helvetica,sans-serif;
+        }
     
-    .main__button {
-    font: 19px/21px Roboto,arial,helvetica,sans-serif;
-    padding: 14px 17px;
-}
-    }
+        .main__button {
+        font: 18px/22px Roboto,arial,helvetica,sans-serif;
+        padding: 16px 23px;
+        }
     
-    .menu__item {
-    font: 500 18px/9px bold Roboto,arial,helvetica, sans-serif;
-    margin-right: 30px;
+      .menu__item {
+        font: 500 18px/9px bold Roboto,arial,helvetica, sans-serif;
+        margin-right: 30px;
+        }
+        .menu__item_active:after {
+        position: absolute;
+        display: block;
+        content:'';
+        left: 0;
+        top: 14px;
+        width: 100%;
+        height: 3px;
+        background: #0056EC;
+        opacity: 0;
+        transition: opacity .5s;
+        }
     }
-}
