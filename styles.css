@@ -77,6 +77,15 @@
 .main__title {
     margin: 0 0 40px 0;
     font: bold 50px/65px 'pt_serifbold', arial, helvetica,sans-serif;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+
+.main__title:hover {
+    font-size: 60px;
 }
 
 .main_title-text_highlight {
@@ -97,6 +106,18 @@
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
+    width: 11em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 3s steps(50, end);
+    animation: type 3s steps(50, end);
+}
+@keyframes type{
+    from { width: 0; }
+}
+ 
+@-webkit-keyframes type{
+    from { width: 0; }
 }
 
 .main__button:hover {
@@ -133,7 +154,16 @@
         margin-bottom: 44px;
         font: bold 30px/39px 'pt_serifbold',arial, helvetica, sans-serif;
         margin: 0 0 40px 0;
-    }
+        transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+
+.main__title:hover {
+    font-size: 35px;
+}
 
     .main__subtitle {
         margin: -2px 45px 30px 44px;
@@ -286,7 +316,16 @@
     .main__title {
     margin: 0px -42px 42px -5px;
     font: bold 50px/66px 'pt_serifbold', arial, helvetica,sans-serif;
-    }
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+
+.main__title:hover {
+    font-size: 55px;
+}
     
     .main__subtitle {
     margin: 0px 0px 40px -4px;
@@ -326,7 +365,16 @@
     .main__title {
     margin: 12px -50px 46px 0px;
     font: bold 50px/65px 'pt_serifbold', arial, helvetica,sans-serif;
-    }
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+
+.main__title:hover {
+    font-size: 55px;
+}
     
     .main__subtitle {
     margin: -6px 0px 42px 0px;
@@ -378,7 +426,16 @@
         .main__title {
         margin: -37px 0 48px -8px;
         font: bold 66px/86px 'pt_serifbold', arial, helvetica,sans-serif;
-        }
+        transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+
+.main__title:hover {
+    font-size: 77px;
+}
     
         .main__subtitle{
         margin: -8px 320px 44px -5px;
