@@ -261,6 +261,25 @@
       }
 }
 
+@media(min-width: 320px) {
+    .menu__item {
+        display: block;
+        padding: 0px 0px;
+        color: #333;
+        font-family: bold 'Roboto', sans-serif;
+        font-size: 29px;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+        margin-right: 0px;
+        margin-top: 42px;
+        transition-duration: .25s;
+}
+
+
+    }
+}
+
 @media (min-width:770px) {
     .wrapper {
         width: 93%;
