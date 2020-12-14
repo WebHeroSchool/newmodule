@@ -261,6 +261,43 @@
       }
 }
 
+@media (min-width:770px) {
+    .wrapper {
+        width: 93%;
+    }
+
+    .menu__item {
+        position: relative;
+        margin-right: 23px;
+        font: 400 17px/0px bold Roboto,arial,helvetica, sans-serif;
+    }
+
+    .menu__item_active:after {
+        position: absolute;
+        display: block;
+        content:'';
+        left: 0;
+        top: 10px;
+        width: 100%;
+        height: 3px;
+        background: #0056EC;
+        opacity: 0;
+        transition: opacity .5s;
+    }
+
+    .main__title {
+        font: bold 42px/64px 'pt_serifbold', arial, helvetica,sans-serif;
+    }
+
+    .main__subtitle {
+        font: 16px/21px bold Roboto, arial, helvetica,sans-serif;
+    }
+    
+    .main__button {
+        padding: 14px 16px;
+    }
+}
+
 @media(min-width:1024px) {
     .wrapper {
         width: 92%;
